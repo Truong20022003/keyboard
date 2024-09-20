@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:keyWidth="8.3%p"
+    android:keyHeight="47dp"
+    android:verticalGap="1.7%p">
+    <Row>
+        <Key
+            android:codes="2764"
+            android:keyEdgeFlags="left"
+            android:keyLabel=" ૌ " />
+        <Key
+            android:codes="2760"
+            android:keyLabel=" ૈ " />
+        <Key
+            android:codes="2750"
+            android:keyLabel=" ા " />
+        <Key
+            android:codes="2752"
+            android:keyLabel=" ી " />
+        <Key
+            android:codes="2754"
+            android:keyLabel=" ૂ " />
+        <Key
+            android:codes="2732"
+            android:keyLabel="બ" />
+        <Key
+            android:codes="2745"
+            android:keyLabel="હ" />
+        <Key
+            android:codes="2711"
+            android:keyLabel="ગ" />
+        <Key
+            android:codes="2726"
+            android:keyLabel="દ" />
+        <Key
+            android:codes="2716"
+            android:keyLabel="જ" />
+        <Key
+            android:codes="2721"
+            android:keyLabel="ડ" />
+        <Key
+            android:codes="2690"
+            android:keyEdgeFlags="right"
+            android:keyLabel=" ં " />
+    </Row>
+    <Row>
+        <Key
+            android:codes="2763"
+            android:keyEdgeFlags="left"
+            android:keyLabel=" ો " />
+        <Key
+            android:codes="2759"
+            android:keyLabel=" ે " />
+        <Key
+            android:codes="2765"
+            android:keyLabel=" ્ " />
+        <Key
+            android:codes="2751"
+            android:keyLabel=" િ " />
+        <Key
+            android:codes="2753"
+            android:keyLabel=" ુ " />
+        <Key
+            android:codes="2730"
+            android:keyLabel="પ" />
+        <Key
+            android:codes="2736"
+            android:keyLabel="ર" />
+        <Key
+            android:codes="2709"
+            android:keyLabel="ક" />
+        <Key
+            android:codes="2724"
+            android:keyLabel="ત" />
+        <Key
+            android:codes="2714"
+            android:keyLabel="ચ" />
+        <Key
+            android:codes="2719"
+            android:keyLabel="ટ" />
+        <Key
+            android:codes="2748"
+            android:keyEdgeFlags="right"
+            android:keyLabel=" ઼ " />
+    </Row>
+    <Row android:keyWidth="10%p">
+        <Key
+            android:codes="-1"
+            android:keyWidth="14%p"
+            android:keyIcon="@drawable/ic_shift" />
+        <Key
+            android:codes="2734"
+            android:keyLabel="મ" />
+        <Key
+            android:codes="2728"
+            android:keyLabel="ન" />
+        <Key
+            android:codes="2741"
+            android:keyLabel="વ" />
+        <Key
+            android:codes="2738"
+            android:keyLabel="લ" />
+        <Key
+            android:codes="2744"
+            android:keyLabel="સ" />
+        <Key
+            android:codes="2743"
+            android:keyLabel="ષ" />
+        <Key
+            android:codes="2735"
+            android:keyLabel="ય" />
+        <Key
+            android:codes="@integer/key_delete"
+            android:isRepeatable="true"
+            android:keyWidth="14%"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@mipmap/delete_white" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom"
+        android:horizontalGap="1%">
+        <Key
+            android:codes="-2"
+            android:keyWidth="15%p"
+            android:keyEdgeFlags="left"
+            android:keyLabel="&amp;123" />
+        <Key
+            android:codes="-111"
+            android:keyIcon="@mipmap/microphone_white" />
+        <Key
+            android:codes="-10"
+            android:keyWidth="8.75%p"
+            android:keyIcon="@mipmap/emoji_white" />
+        <Key
+            android:codes="32"
+            android:keyWidth="34.7%p"
+            android:keyIcon="@drawable/btn_space_nomal"
+            android:keyLabel=" " />
+        <Key
+            android:codes="46"
+            android:keyWidth="8.75%p"
+            android:keyIcon="@mipmap/img_dot_black" />
+        <Key
+            android:codes="10"
+            android:keyWidth="15.75%p"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@mipmap/enter_white" />
+    </Row>
+</Keyboard>

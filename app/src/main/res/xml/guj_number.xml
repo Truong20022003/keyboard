@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="1%"
+    android:keyWidth="32%"
+    android:keyHeight="50dp"
+    android:verticalGap="1%p">
+    <Row>
+        <Key
+            android:codes="49"
+            android:keyEdgeFlags="left"
+            android:keyLabel="૧" />
+        <Key
+            android:codes="50"
+            android:keyLabel="૨" />
+        <Key
+            android:codes="51"
+            android:keyLabel="૩" />
+        <Key
+            android:codes="0"
+            android:keyWidth="0dp"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="52"
+            android:keyEdgeFlags="left"
+            android:keyLabel="૪" />
+        <Key
+            android:codes="53"
+            android:keyLabel="૫" />
+        <Key
+            android:codes="54"
+            android:keyEdgeFlags="right"
+            android:keyLabel="૬" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="55"
+            android:keyEdgeFlags="left"
+            android:keyLabel="૭" />
+        <Key
+            android:codes="56"
+            android:keyLabel="૮" />
+        <Key
+            android:codes="57"
+            android:keyEdgeFlags="right"
+            android:keyLabel="૯" />
+    </Row>
+    <Row>
+        <Key
+            android:codes="@integer/key_delete"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="left"
+            android:keyLabel="DEL" />
+        <Key
+            android:codes="48"
+            android:keyLabel="૦" />
+        <Key
+            android:codes="10"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@mipmap/enter" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lnViewFont"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:layout_margin="@dimen/_10sdp"
+    android:background="@drawable/bg_border_permission"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:paddingHorizontal="@dimen/_5sdp"
+        android:text="@string/q_w_e_r_t_y"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvFontName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:ellipsize="end"
+        android:fontFamily="@font/configrounded_600"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="Font Default"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvText" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tvApply"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rip_apply_font"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:text="@string/apply"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/ivChecked"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_check_done" />
+    </RelativeLayout>
+</LinearLayout>

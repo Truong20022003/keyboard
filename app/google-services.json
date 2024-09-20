@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "639691346578",
+    "project_id": "keybroard-43829",
+    "storage_bucket": "keybroard-43829.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639691346578:android:b14d98250220cd7c024c4b",
+        "android_client_info": {
+          "package_name": "com.sticker.nicekeyboard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzFUKTNkMQ6i7VLZ1fmvUFIC67lsLqVpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_clay_midnight">#ff01579b</color>
+    <color name="candidate_normal">#ff38b5c2</color>
+    <color name="candidate_other">#ffe9143e</color>
+    <color name="bg_keyboard_ios">#ffd2d5da</color>
+
+    <color name="color_light_pink">#FFB3B3</color>
+    <color name="color_Ivory">#FEECD7</color>
+    <color name="color_Peach">#FFA298</color>
+    <color name="color_Royal_Blue">#419AD2</color>
+    <color name="color_Blue">#42A5F6</color>
+    <color name="color_Purple">#98A8F8</color>
+    <color name="color_Lavender">#E2D2F7</color>
+    <color name="color_Pacific_Blue">#7C99A9</color>
+    <color name="color_Violet">#9EA1D4</color>
+    <color name="color_Blue_Gray">#607D8B</color>
+    <color name="color_Dark_Blue">#273238</color>
+    <color name="color_Pink">#FF7A9C</color>
+    <color name="color_Salmon_Pink">#FD8A8A</color>
+    <color name="color_Coral">#F69E7B</color>
+    <color name="color_Vermilion">#F6695F</color>
+    <color name="color_Light_Green">#54BAB9</color>
+    <color name="color_Teal">#019293</color>
+    <color name="color_Greenland">#659E35</color>
+    <color name="color_Pale_Yellow">#FFDBA4</color>
+    <color name="color_Golden1">#E59910</color>
+    <color name="color_Golden2">#ECBE13</color>
+    <color name="color_Copper">#AA6930</color>
+    <color name="color_Orange_pink">#FAAB78</color>
+    <color name="colorPrimary">#CD275B</color>
+    <color name="colorPrimaryDark">#CD275B</color>
+    <color name="theme">#c2185b</color>
+    <color name="theme_default">#ffd2d5da</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_095467">#095467</color>
+    <color name="color_0B0B0B">#0B0B0B</color>
+    <color name="color_333841">#333841</color>
+    <color name="color_FA7A50">#FA7A50</color>
+    <color name="color_9097A5">#9097A5</color>
+    <color name="color_4080EE">#4080EE</color>
+    <color name="color_F7F7FB">#F7F7FB</color>
+    <color name="color_FFE7DF">#FFE7DF</color>
+    <color name="color_039732">#039732</color>
+
+    <color name="lightTransparent">#16000000</color>
+
+
+</resources>

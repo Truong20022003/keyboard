@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sticker.nicekeyboard">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission
+        android:name="android.permission.WRITE_SECURE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:name="com.sticker.nicekeyboard.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_app"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BaseKotlin"
+        android:usesCleartextTraffic="true"
+        tools:ignore="DiscouragedApi,LockedOrientationActivity"
+        tools:targetApi="31">
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.scale_image_background.CropActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.policy.PolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.custom_background.background_call_api.BackgroundDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.custom_background.BackgroundActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.success.SuccessActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.custom_font.FontActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.no_internet.NoInternetActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.preview.PreviewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.permission.PermissionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.intro.IntroActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.splash.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.main.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.language.LanguageStartActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.sticker.nicekeyboard.ui.language.LanguageSettingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.sticker.nicekeyboard.service.ServiceIKeyboard"
+            android:exported="false"
+            android:label="@string/app_name"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:supportsSwitchingToNextInputMethod="true">
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+        </service>
+
+<!--        <provider-->
+<!--            android:name="androidx.core.content.FileProvider"-->
+<!--            android:authorities="${applicationId}.provider"-->
+<!--            android:exported="false"-->
+<!--            android:grantUriPermissions="true">-->
+<!--            <meta-data-->
+<!--                android:name="android.support.FILE_PROVIDER_PATHS"-->
+<!--                android:resource="@xml/provider_paths" />-->
+<!--        </provider>-->
+    </application>
+
+</manifest>

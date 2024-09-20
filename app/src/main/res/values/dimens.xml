@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="value_16">16dp</dimen>
+
+    <dimen name="viewpager_next_item_visible">30dp</dimen>
+    <dimen name="viewpager_current_item_horizontal_margin">40dp</dimen>
+    <dimen name="banner_ads_height">60dp</dimen>
+</resources>

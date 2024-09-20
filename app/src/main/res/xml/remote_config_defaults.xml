@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<defaults>
+    <entry>
+        <key>open_splash</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>inter_splash</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>native_lang</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>native_intro</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>inter_intro</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>native_permission</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>appopen_resume</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>native_apply</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>collap_preview</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>native_preview</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>native_popup</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>inter_success</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>native_custom</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>inter_theme</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>inter_save</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>interval_between_interstitial</key>
+        <value>20</value>
+    </entry>
+
+    <entry>
+        <key>interval_interstitial_from_start</key>
+        <value>15</value>
+    </entry>
+
+    <entry>
+        <key>rate_aoa_inter_splash</key>
+        <value>30_70</value>
+    </entry>
+</defaults>
